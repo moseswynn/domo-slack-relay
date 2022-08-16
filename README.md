@@ -10,7 +10,7 @@ Clone the repository then deploy the cloud function normally with the python 3.1
 gcloud functions deploy <function name> \
     --runtime python310 \
     --trigger-http \
-    --allowunauthenticated
+    --allow-unauthenticated
 ```
 
 ## Usage
